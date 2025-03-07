@@ -11,5 +11,7 @@ int main(){
 
     if( number > 0){
         std::cout << "True";
+    }else{
+        std::cout <<"False";
     }
 }
