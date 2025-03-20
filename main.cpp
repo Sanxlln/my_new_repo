@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 
 int main(){
  std::cout <<"Hello word";
@@ -8,6 +9,7 @@ int main(){
  }
  std::cout <<"  ";
 
+ std::vector<int> vec;
  for(int i = 0; i < 0; i++){
    std::cout << i;
  }
