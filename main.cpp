@@ -1,4 +1,5 @@
 #include<iostream>
+#include<map>
 
 int main(){
  std::cout <<"Hello word";
@@ -7,4 +8,7 @@ int main(){
     std::cout << "It's true";
  }
  std::cout <<"  ";
+
+ std::map<int, int> m;
+ 
 }
