@@ -18,7 +18,9 @@ int main(){
  for(int i = 0; i < 5; ++i){
    m[i] = i * 10
  }
- std::cout << "m";
+ for( auto& pair : m){
+   std::cout << pair.first << "--" << pair.second;
+ }
 
  std::cout << sum(3, 5); 
  return 0;
