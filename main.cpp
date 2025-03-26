@@ -15,6 +15,9 @@ int main(){
  std::cout <<"  ";
 
  std::map<int, int> m;
+ for(int i = 0; i < 5; ++i){
+   m[i] = i * 10
+ }
  std::cout << "m";
 
  std::cout << sum(3, 5); 
